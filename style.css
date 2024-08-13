@@ -1,0 +1,41 @@
+.root{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px dotted black;
+    padding: 1rem;
+    border-radius: 5px;
+    min-height: 100vh;
+    min-width: max-content;
+
+}
+
+.label{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+}
+
+.myBtn{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.562);
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.myBtn:hover{
+	color: black;
+	background-color: whitesmoke;
+}
+
+.parent-root{
+    padding: 1rem;
+}
+
+.form{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+}
